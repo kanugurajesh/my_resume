@@ -23,6 +23,7 @@ img {
     height: 200px;
     border-radius: 50%;
     border: white 5px solid;
+    transition: all 0.5s ease-in-out;
 }
 
 span {
@@ -40,6 +41,7 @@ span {
     box-sizing: border-box;
     border: black 5px solid;
     overflow: hidden;
+    /* word-wrap: break-word; */
 }
 
 .margin {
@@ -50,6 +52,8 @@ span {
     padding: 50px 0;
     gap: 20px;
     box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    /* word-wrap: break-word; */
 }
 
 a {
@@ -61,7 +65,7 @@ a:hover {
     text-decoration: none;
 }
 
-.margin1 {
+#margin1 {
     background-color: white;
     color: black;
 }
