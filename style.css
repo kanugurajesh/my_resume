@@ -10,7 +10,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-size: 16px;
-    padding: 20px 0;
+    padding: 5px 0;
     display: flex;
     justify-content: center;
     background-color: #131313;
@@ -31,6 +31,10 @@ span {
     font-size: 45px;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .container {
     width: 800px;
     height: 900px;
@@ -40,8 +44,7 @@ span {
     flex-direction: column;
     box-sizing: border-box;
     border: black 5px solid;
-    overflow: hidden;
-    /* word-wrap: break-word; */
+    overflow-y: scroll;
 }
 
 .margin {
@@ -56,11 +59,11 @@ span {
     /* word-wrap: break-word; */
 }
 
-a {
+#repo {
     color: #99D930;
 }
 
-a:hover {
+#repo:hover {
     color: #131313;
     text-decoration: none;
 }
@@ -68,4 +71,31 @@ a:hover {
 #margin1 {
     background-color: white;
     color: black;
+}
+
+.linker {
+    width: 200px;
+    height: 50px;
+    background-color: #99D930;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* .linker:hover {
+    background-color: black;
+    color: white;
+} */
+
+.linker a {
+    text-decoration: none;
+    color: black;
+}
+
+.linker:hover {
+    background-color: black;
+}
+
+/* when hovered on linker a should become white color */
+.linker:hover a {
+    color: white;
 }
