@@ -79,23 +79,12 @@ span {
     background-color: #99D930;
     font-size: larger;
     font-weight: bolder;
-}
-
-/* .linker:hover {
-    background-color: black;
-    color: white;
-} */
-
-.linker a {
-    text-decoration: none;
-    color: black;
+    text-align: center;
+    line-height: 50px;
 }
 
 .linker:hover {
-    background-color: black;
-}
-
-/* when hovered on linker a should become white color */
-.linker:hover a {
+    background-color: #131313;
     color: white;
+    text-decoration: none;
 }
