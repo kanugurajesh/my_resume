@@ -16,6 +16,7 @@ body {
     background-color: #131313;
     user-select: none;
     color: white;
+    transition: all 0.5s ease-in-out;
 }
 
 img {
@@ -52,11 +53,10 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 25px;
     padding: 50px 0;
-    gap: 20px;
     box-sizing: border-box;
     transition: all 0.5s ease-in-out;
-    /* word-wrap: break-word; */
 }
 
 #repo {
@@ -81,10 +81,27 @@ span {
     font-weight: bolder;
     text-align: center;
     line-height: 50px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
 .linker:hover {
     background-color: #131313;
     color: white;
     text-decoration: none;
+}
+
+/* add a horizontal line before and after h2 */
+
+h2 {
+    width: 70%;
+    position: relative;
+    margin: 0;
+    padding: 0 0;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    border-top: #c4c4c4 1px solid;
+    padding: 50px 0;
+    border-bottom: #c4c4c4 1px solid;
 }
