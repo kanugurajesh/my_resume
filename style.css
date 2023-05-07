@@ -27,9 +27,15 @@ img {
     transition: all 0.5s ease-in-out;
 }
 
-span {
+h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.first {
+    font-size: 50px;
+    font-weight: 900;
     display: block;
-    font-size: 45px;
 }
 
 ::-webkit-scrollbar {
@@ -94,14 +100,26 @@ span {
 /* add a horizontal line before and after h2 */
 
 h2 {
+    font-weight: lighter;
     width: 70%;
     position: relative;
     margin: 0;
     padding: 0 0;
     font-size: 30px;
-    font-weight: bolder;
     margin-bottom: 20px;
     border-top: #c4c4c4 1px solid;
     padding: 50px 0;
     border-bottom: #c4c4c4 1px solid;
+}
+
+#last:hover,
+#last:focus {
+    background-color: #fff;
+    color: #252525;
+}
+
+
+.last {
+    color: #99D930;
+    font-weight: bolder;
 }
